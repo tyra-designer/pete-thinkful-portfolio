@@ -1,0 +1,97 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+header{
+  text-align: center;
+  width: 100%;
+}
+
+nav ul {
+  text-align:center
+}
+
+nav li{
+  display: inline;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+body {
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  padding: 40px;
+  background-color: #eae2b7;
+}
+
+
+/* Set the font family for any h1, h2, or h3 heading */
+h1{
+  font-family:"Playfair Display", Times, serif;
+  font-size: 40px;
+}
+h2{
+  font-family: "Payfair Display", Times, serif;
+  font-size: 35px;
+  text-align: center;
+}
+h3 {
+  font-family: "Playfair Display", Times, serif;
+  font-size: 25px;
+}
+
+article {
+  padding: 50px 0;
+}
+
+article div {
+  text-align: center;
+  width: 100%;
+}
+
+p {
+  line-height: 1.5;
+  text-align: left;
+}
+
+ul li{
+  list-style-position: inside;
+  text-align: left;
+}
+
+
+
+/* The div container constrains the content width within the main container to 600px */
+div {
+  margin: auto;
+  width: 600px;
+}
+
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+/* Add your solution below */
+
+.image-circle {
+  border-radius: 50%;
+  border: 2px solid #003049;
+}
+
+a:link    { color:  #d62828   }
+a:hover   { color: #f77f00 }
+
+footer{
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  text
+}
